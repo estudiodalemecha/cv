@@ -1,0 +1,1938 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Pablo Giusepponi — Senior Designer / Diseñador Senior</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- BILINGUAL DATABASE: EDIT TO UPDATE CV IN BOTH LANGUAGES -->
+    <script>
+    const CV_DATA = {
+        en: {
+            langCode: "en",
+            nav: {
+                experience: "Experience",
+                expertise: "Expertise",
+                education: "Education",
+                contact: "Contact"
+            },
+            hero: {
+                firstName: "Juan Pablo",
+                lastName: "Giusepponi",
+                title: "Senior Designer — Branding & Communication",
+                description: "Creating impactful branding and graphic design solutions for print and digital media. Specialized in institutional communication, team leadership, and human-centered design. Passionate about brand development and collaborative work.",
+                photo: "https://i.ibb.co/cStPV5Mm/IMG-20250906-WA0003.jpg",
+                available: true,
+                availableText: "Available for new opportunities",
+                ctaPrimary: "View Experience",
+                ctaSecondary: "Get in Touch"
+            },
+            sections: {
+                experienceLabel: "Career Path",
+                experienceTitle: "Professional Experience",
+                expertiseLabel: "Capabilities",
+                expertiseTitle: "Areas of Expertise",
+                educationLabel: "Background",
+                educationTitle: "Education & Training",
+                academicTitle: "Academic Formation",
+                specializedTitle: "Specialized Training",
+                certificationsTitle: "Professional Certifications & Courses",
+                languagesLabel: "Communication",
+                languagesTitle: "Languages",
+                contactLabel: "Connection",
+                contactTitle: "Get in Touch",
+                emailLabel: "Email",
+                phoneLabel: "Phone",
+                footer: "© 2024 Juan Pablo Giusepponi — Designed & Coded with precision"
+            },
+            experience: [
+                {
+                    id: 0,
+                    role: "AI Generalist Pro Trainer",
+                    company: "Outlier.ai (Aether)",
+                    period: "2026-present",
+                    description: "Training unreleased AI models in language, science and multimedia generation",
+                    highlights: ["Reached PRO Trainer level within first 4 days."]
+                },
+                {
+                    id: 1,
+                    role: "Head of Art & Design",
+                    company: "Ministerio de Salud de San Luis",
+                    period: "2022 — 2024",
+                    description: "Led visual identity and institutional communication (internal/external). Responsible for graphic, audiovisual, advertising, and web design. Created and edited digital and print campaigns. Organized events and brand activations.",
+                    highlights: [
+                        "Created \"SALUD A PLENO!\" campaign, achieving unprecedented access to public health services across the province",
+                        "Developed \"Espacios Amigos de la Lactancia\" campaign, exported to other provinces"
+                    ]
+                },
+                {
+                    id: 2,
+                    role: "Senior Graphic Designer & Art Director",
+                    company: "UPRO — Universidad Provincial de Oficios Eva Perón",
+                    period: "2019 — 2022",
+                    description: "Responsible for institutional identity. Content creator and community builder. Designed for print, advertising, digital, and motion. Event production, social media management, and digital archive administration. Emergency media contact and contractor management.",
+                    highlights: [
+                        "Achieved 1,000%+ increase in enrollments within six months of digital and advertising campaign",
+                        "Created \"Comunidad UPRO\" and \"Universo UPRO\" as regional benchmarks",
+                        "Established partnerships with national and international companies and institutions",
+                        "Produced historic brand exhibitions and activations for the institution"
+                    ]
+                },
+                {
+                    id: 3,
+                    role: "Co-founder & Senior Editorial Designer",
+                    company: "Editorial Deacá",
+                    period: "2012 — 2022",
+                    description: "Co-founded independent publishing house focused on federal Argentine poetry. Editorial design, book layout, proofreading, and cover art. Community management and national/international book fair representation.",
+                    highlights: [
+                        "Published 41 books in print runs of 300-600 copies each — currently sold out",
+                        "2 books awarded by Fondo Nacional de las Artes in Poetry category",
+                        "Featured at Feria Nacional del Libro (Buenos Aires) and international poetry festivals"
+                    ]
+                },
+                {
+                    id: 4,
+                    role: "CEO & Lead Designer",
+                    company: "Dale Mecha — Estudio Creativo",
+                    period: "2018 — Present",
+                    description: "Running independent design studio serving diverse clients in branding, digital design, and visual communication.",
+                    highlights: []
+                },
+                {
+                    id: 5,
+                    role: "Cultural Manager & Designer",
+                    company: "Angosto Club",
+                    period: "2023 — Present",
+                    description: "Cultural management, design direction, and community management for cultural venue.",
+                    highlights: []
+                },
+                {
+                    id: 6,
+                    role: "Sr. Graphic Designer",
+                    company: "TAP e-commerce",
+                    period: "2017",
+                    description: "Branding, Marketing and Web Designer.",
+                    highlights: []
+                },
+                {
+                    id: 7,
+                    role: "Photography and Visual Communication Teacher",
+                    company: "Centro de Actividades Juveniles (CAJ)",
+                    period: "2014-2016",
+                    description: "Taught visual language and photography for the CAJ of '828 viviendas' neighborhood (Esc. Técnica N°20 Antonio Berni).",
+                    highlights: []
+                },
+                {
+                    id: 8,
+                    role: "Expert Forensic Photographer",
+                    company: "Villa Mercedes Judicial Branch",
+                    period: "2013-2014",
+                    description: "Carried out photographic forensic reports for the judicial branch of Villa Mercedes.",
+                    highlights: []
+                },
+                {
+                    id: 9,
+                    role: "Tourism Guide Promoter",
+                    company: "SPQR (Special Quality Rome)",
+                    period: "2018",
+                    description: "Sales and promotion of guided tours of the Collosseum, Roman Forums and Vatican Museums in Rome, Italy",
+                    highlights: []
+                }
+            ],
+            expertise: [
+                {
+                    category: "Design & Media",
+                    skills: ["Print & Digital Media", "Branding Development", "Product Design", "Graphic Design", "Editorial Design", "Illustration", "2D Animation", "Visual Arts"]
+                },
+                {
+                    category: "Management",
+                    skills: ["Project Management", "Team Coordination", "Institutional Communication", "Design Systems", "Content Strategy", "Event Production"]
+                },
+                {
+                    category: "Languages & Tools",
+                    skills: ["Creative Writing", "Editing & Proofreading", "Design Software & ICTs", "Multilingual Communication"]
+                }
+            ],
+            education: {
+                academic: [
+                    {
+                        institution: "Interlingua American English Institute",
+                        details: "All levels completed — TOEIC Score: 885/900",
+                        year: "1997 — 2007"
+                    },
+                    {
+                        institution: "Universidad Nacional de Buenos Aires",
+                        details: "BA in Graphic Design",
+                        year: "2008 — 2009"
+                    },
+                    {
+                        institution: "Universidad Nacional de San Luis",
+                        details: "BA in Psyschology — First two years completed",
+                        year: "2010 — 2012"
+                    }
+                ],
+                specialized: [
+                    {
+                        institution: "HubSpot",
+                        details: "Course: Digital Marketing",
+                        year: "2026"
+                    },
+                    {
+                        institution: "INAP — Instituto Nacional de la Administración Pública",
+                        details: "Communication and Media",
+                        year: "Plan Federal · 2022 (IN-NT-45446)"
+                    },
+                    {
+                        institution: "INAP — Instituto Nacional de la Administración Pública",
+                        details: "Communication management in the institutional sphere: new technologies",
+                        year: "Plan Federal · 2022 (IN-NS-46801)"
+                    }
+                ]
+            },
+            certifications: [
+                {
+                    provider: "Google",
+                    course: "Introduction to Generative AI · AI Boost Bootcamp: Gemini in Workspace",
+                    meta: "2026",
+                    id: null
+                },
+                {
+                    provider: "Google",
+                    course: "Generative AI Leader",
+                    meta: "2026",
+                    id: null
+                },
+                {
+                    provider: "Secretaría de Medios y Comunicación Pública",
+                    course: "Democratic Communication",
+                    meta: "Programa SUMAR Capacitación · 2022",
+                    id: null
+                },
+                {
+                    provider: "Secretaría de Medios y Comunicación Pública",
+                    course: "Social Media and Working Class Communication",
+                    meta: "Programa SUMAR Capacitación · 2022",
+                    id: null
+                },
+                {
+                    provider: "INAP — Instituto Nacional de la Administración Pública",
+                    course: "Government Communication and Social Media: Challenges for Public Administration",
+                    meta: "Plan Federal · 2022",
+                    id: "IN-NT-46795"
+                },
+                {
+                    provider: "INAP / Universidad Nacional Arturo Jauretche",
+                    course: "Big Data: making data speak",
+                    meta: "Plan Federal · 2022",
+                    id: "IN-PP-45451"
+                },
+                {
+                    provider: "Universidad Nacional de Lomas de Zamora / INAP",
+                    course: "Team Coordination in the Public Sector",
+                    meta: "2022",
+                    id: null
+                },
+                {
+                    provider: "Organización Panamericana de la Salud (OPS-OMS)",
+                    course: "Prevention of Self-Harm and Suicide: Empowering Primary Health Care Professionals",
+                    meta: "2022",
+                    id: null
+                },
+                {
+                    provider: "OPS / Ministerio de Salud de la Nación",
+                    course: "Communicating to Transform — Federal Meeting on Communication and Health",
+                    meta: "Congress · 2022",
+                    id: null
+                },
+                {
+                    provider: "Campus Digital",
+                    course: "Diversity and Inclusion at Work",
+                    meta: "Mocha Celis — Bachillerato Trans · 2020",
+                    id: null
+                },
+                {
+                    provider: "TUCAMON",
+                    course: "Digital Photography — Full Course",
+                    meta: "2009 — 2010",
+                    id: null
+                },
+                {
+                    provider: "Stanford University",
+                    course: "CS 178 - Digital Photography",
+                    meta: "2013",
+                    id: null
+                },
+                {
+                    provider: "MIT",
+                    course: "CMS.405 Media & Methods: Sight & Expression · CMS.935 Documentary Photography & Photojournalism · 21H.991 Theory & Methods in History · 24.949J Language Acquisition",
+                    meta: "2012 - 2017",
+                    id: null
+                },
+                {
+                    provider: "USA Foreign Service Institute",
+                    course: "Mandarin Chinese (Level 3) · Italian (Level 3) · French (Level 1)",
+                    meta: "2012-2014",
+                    id: null
+                }
+            ],
+            languages: [
+                { name: "English", level: "Fluent" },
+                { name: "Italian", level: "Fluent" },
+                { name: "Mandarin Chinese", level: "Intermediate" },
+                { name: "French", level: "Basic" },
+                { name: "Portuguese", level: "Basic" }
+            ],
+            contact: {
+                email: "estudiodalemecha@gmail.com",
+                phone: "+54 9 2657 394282"
+            }
+        },
+        
+        es: {
+            langCode: "es",
+            nav: {
+                experience: "Experiencia",
+                expertise: "Expertise",
+                education: "Educación",
+                contact: "Contacto"
+            },
+            hero: {
+                firstName: "Juan Pablo",
+                lastName: "Giusepponi",
+                title: "Diseñador Senior — Branding y Comunicación",
+                description: "Creando soluciones impactantes de branding y diseño gráfico para medios impresos y digitales. Especializado en comunicación institucional, liderazgo de equipos y diseño centrado en las personas. Apasionado por el desarrollo de marcas y el trabajo colaborativo.",
+                photo: "https://i.ibb.co/cStPV5Mm/IMG-20250906-WA0003.jpg",
+                available: true,
+                availableText: "Disponible para nuevas oportunidades",
+                ctaPrimary: "Ver Experiencia",
+                ctaSecondary: "Contactar"
+            },
+            sections: {
+                experienceLabel: "Trayectoria",
+                experienceTitle: "Experiencia Profesional",
+                expertiseLabel: "Capacidades",
+                expertiseTitle: "Áreas de Expertise",
+                educationLabel: "Formación",
+                educationTitle: "Educación y Capacitación",
+                academicTitle: "Formación Académica",
+                specializedTitle: "Capacitación Especializada",
+                certificationsTitle: "Certificaciones y Cursos Profesionales",
+                languagesLabel: "Comunicación",
+                languagesTitle: "Idiomas",
+                contactLabel: "Conexión",
+                contactTitle: "Contacto",
+                emailLabel: "Correo",
+                phoneLabel: "Teléfono",
+                footer: "© 2024 Juan Pablo Giusepponi — Diseñado y Programado con precisión"
+            },
+            experience: [
+                {
+                    id: 0,
+                    role: "Entrenador Pro Generalista en IA",
+                    company: "Outlier.ai (Aether)",
+                    period: "2026-presente",
+                    description: "Entreno modelos de IA pre-lanzamiento en generación de lenguaje, ciencias y multimedia.",
+                    highlights: ["Alcancé nivel de Entrenador PRO en los primeros 4 días."]
+                },
+                {
+                    id: 1,
+                    role: "Jefe de Área Arte y Diseño",
+                    company: "Ministerio de Salud de San Luis",
+                    period: "2022 — 2024",
+                    description: "Lideré identidad visual y comunicación institucional (interna/externa). Responsable de diseño gráfico, audiovisual, publicitario y web. Creación y edición de campañas digitales e impresas. Organización de eventos y activaciones de marca.",
+                    highlights: [
+                        "Creé la campaña \"SALUD A PLENO!\", logrando acceso sin precedentes a servicios de salud pública en toda la provincia",
+                        "Desarrollé la campaña \"Espacios Amigos de la Lactancia\", exportada a otras provincias"
+                    ]
+                },
+                {
+                    id: 2,
+                    role: "Diseñador Gráfico Senior y Director de Arte",
+                    company: "UPRO — Universidad Provincial de Oficios Eva Perón",
+                    period: "2019 — 2022",
+                    description: "Responsable de identidad institucional. Creador de contenidos y comunidades. Diseño para gráfica, publicidad, digital y motion. Producción de eventos, gestión de redes sociales y administración de archivo digital. Contacto de urgencia para medios y gestión de contratistas.",
+                    highlights: [
+                        "Logré un aumento de más del 1.000% en inscripciones en seis meses de campaña digital y publicitaria",
+                        "Creé \"Comunidad UPRO\" y \"Universo UPRO\" como referentes regionales",
+                        "Establecí vínculos con empresas e instituciones nacionales e internacionales",
+                        "Produje exhibiciones y activaciones de marca de alcance histórico para la institución"
+                    ]
+                },
+                {
+                    id: 3,
+                    role: "Co-fundador y Diseñador Editorial Senior",
+                    company: "Editorial Deacá",
+                    period: "2012 — 2022",
+                    description: "Co-fundé editorial independiente enfocada en poesía argentina federal. Diseño editorial, maquetación de libros, corrección y arte de tapas. Community management y representación en ferias nacionales e internacionales del libro.",
+                    highlights: [
+                        "Publicamos 41 libros en tiradas de 300 a 600 ejemplares cada uno — actualmente agotados",
+                        "2 libros premiados por el Fondo Nacional de las Artes en género Poesía",
+                        "Presente en la Feria Nacional del Libro (Buenos Aires) y festivales internacionales de poesía"
+                    ]
+                },
+                {
+                    id: 4,
+                    role: "CEO y Diseñador Principal",
+                    company: "Dale Mecha — Estudio Creativo",
+                    period: "2018 — Presente",
+                    description: "Dirigiendo estudio de diseño independiente atendiendo diversos clientes en branding, diseño digital y comunicación visual.",
+                    highlights: []
+                },
+                {
+                    id: 5,
+                    role: "Gestor Cultural y Diseñador",
+                    company: "Angosto Club",
+                    period: "2023 — Presente",
+                    description: "Gestión cultural, dirección de diseño y community management para espacio cultural.",
+                    highlights: []
+                },
+                {
+                    id: 6,
+                    role: "Diseñador Gráfico Sr.",
+                    company: "TAP e-commerce",
+                    period: "2017",
+                    description: "Diseño de Branding, Publicitario y Web.",
+                    highlights: []
+                },
+                {
+                    id: 7,
+                    role: "Prof. de Fotografía y Comunicación Visual",
+                    company: "Centro de Actividades Juveniles (CAJ)",
+                    period: "2014-2016",
+                    description: "Enseñanza de lenguaje visual y fotografía en CAJ de Barrio 828 viviendas (Esc. Técnica N°20 Antonio Berni).",
+                    highlights: []
+                },
+                {
+                    id: 8,
+                    role: "Perito Fotográfico Único",
+                    company: "Poder Judicial de Villa Mercedes",
+                    period: "2013-2014",
+                    description: "Peritajes fotográficos para la Justicia de Villa Mercedes.",
+                    highlights: []
+                },
+                {
+                    id: 9,
+                    role: "Promotor de Guía Turística",
+                    company: "SPQR (Special Quality Rome)",
+                    period: "2018",
+                    description: "Promoción y venta de tours guiados de Coliseo, Foros Romanos y Museo del Vaticano (en Roma, Italia).",
+                    highlights: []
+                }
+            ],
+            expertise: [
+                {
+                    category: "Diseño y Medios",
+                    skills: ["Medios Impresos y Digitales", "Desarrollo de Branding", "Diseño de Productos", "Diseño Gráfico", "Diseño Editorial", "Ilustración", "Animación 2D", "Artes Visuales"]
+                },
+                {
+                    category: "Gestión",
+                    skills: ["Gestión de Proyectos", "Coordinación de Equipos", "Comunicación Institucional", "Sistemas de Diseño", "Estrategia de Contenidos", "Producción de Eventos"]
+                },
+                {
+                    category: "Idiomas y Herramientas",
+                    skills: ["Redacción Creativa", "Edición y Corrección", "Software de Diseño y TICs", "Comunicación Multilingüe"]
+                }
+            ],
+            education: {
+                academic: [
+                    {
+                        institution: "Interlingua American English Institute",
+                        details: "Todos los niveles completados — TOEIC: 885/900",
+                        year: "1997 — 2007"
+                    },
+                    {
+                        institution: "Universidad Nacional de Buenos Aires",
+                        details: "Licenciatura en Diseño Gráfico",
+                        year: "2008 — 2009"
+                    },
+                    {
+                        institution: "Universidad Nacional de San Luis",
+                        details: "Licenciatura en Psicología — Dos primeros años completados",
+                        year: "2010 — 2012"
+                    }
+                ],
+                specialized: [
+                    {
+                        institution: "HubSpot",
+                        details: "Curso: Digital Marketing",
+                        year: "2026"
+                    },
+                    {
+                        institution: "INAP — Instituto Nacional de la Administración Pública",
+                        details: "Curso: Comunicación y Medios",
+                        year: "Plan Federal · 2022 (IN-NT-45446)"
+                    },
+                    {
+                        institution: "INAP — Instituto Nacional de la Administración Pública",
+                        details: "Curso: Gestión de la comunicación en el ámbito institucional: nuevas tecnologías",
+                        year: "Plan Federal · 2022 (IN-NS-46801)"
+                    }
+                ]
+            },
+            certifications: [
+               {
+                    provider: "Google",
+                    course: "Introducción a la IA Generativa · AI Boost Bootcamp: Gemini en el Trabajo",
+                    meta: "2026",
+                    id: null
+                },
+                {
+                    provider: "Google",
+                    course: "Líder en IA Generativa",
+                    meta: "2026",
+                    id: null
+                },
+                {
+                    provider: "Secretaría de Medios y Comunicación Pública",
+                    course: "Comunicación Democrática",
+                    meta: "Programa SUMAR Capacitación · 2022",
+                    id: null
+                },
+                {
+                    provider: "Secretaría de Medios y Comunicación Pública",
+                    course: "Redes Sociales y Comunicación Popular",
+                    meta: "Programa SUMAR Capacitación · 2022",
+                    id: null
+                },
+                {
+                    provider: "INAP — Instituto Nacional de la Administración Pública",
+                    course: "Comunicación gubernamental y redes sociales: Desafíos para la Administración Pública",
+                    meta: "Plan Federal · 2022",
+                    id: "IN-NT-46795"
+                },
+                {
+                    provider: "INAP — Instituto Nacional de la Administración Pública",
+                    course: "Comunicación y Medios",
+                    meta: "Plan Federal · 2022",
+                    id: "IN-NT-45446"
+                },
+                {
+                    provider: "INAP / Universidad Nacional Arturo Jauretche",
+                    course: "Big Data: haciendo hablar los datos",
+                    meta: "Plan Federal · 2022",
+                    id: "IN-PP-45451"
+                },
+                {
+                    provider: "INAP — Instituto Nacional de la Administración Pública",
+                    course: "Gestión de la comunicación en el ámbito institucional: nuevas tecnologías",
+                    meta: "Plan Federal · 2022",
+                    id: "IN-NS-46801"
+                },
+                {
+                    provider: "Universidad Nacional de Lomas de Zamora / INAP",
+                    course: "Coordinación de Equipos en el Sector Público",
+                    meta: "2022",
+                    id: null
+                },
+                {
+                    provider: "Organización Panamericana de la Salud (OPS-OMS)",
+                    course: "Prevención de la Autolesión y el Suicidio: Empoderamiento de los Profesionales de Atención Primaria de Salud",
+                    meta: "2022",
+                    id: null
+                },
+                {
+                    provider: "OPS / Ministerio de Salud de la Nación",
+                    course: "Comunicar para Transformar — Encuentro Federal de Comunicación y Salud",
+                    meta: "Congreso · 2022",
+                    id: null
+                },
+                {
+                    provider: "Campus Digital",
+                    course: "Diversidad e inclusión en el mundo del trabajo",
+                    meta: "Mocha Celis — Bachillerato Trans · 2020",
+                    id: null
+                },
+                {
+                    provider: "TUCAMON",
+                    course: "Fotografía Digital — Curso Completo",
+                    meta: "2009 — 2010",
+                    id: null
+                },
+                {
+                    provider: "Stanford University",
+                    course: "CS 178 - Digital Photography",
+                    meta: "2013",
+                    id: null
+                },
+                {
+                    provider: "MIT",
+                    course: "CMS.405 Media & Methods: Sight & Expression · CMS.935 Documentary Photography & Photojournalism · 21H.991 Theory & Methods in History · 24.949J Language Acquisition",
+                    meta: "2012 - 2017",
+                    id: null
+                },
+                {
+                    provider: "USA Foreign Service Institute",
+                    course: "Chino Mandarín (Nivel 3) · Italiano (Nivel 3) · Francés (Nivel 1)",
+                    meta: "2012-2014",
+                    id: null
+                }
+            ],
+            languages: [
+                { name: "Inglés", level: "Fluido" },
+                { name: "Italiano", level: "Fluido" },
+                { name: "Chino Mandarín", level: "Intermedio" },
+                { name: "Francés", level: "Básico" },
+                { name: "Portugués", level: "Básico" }
+            ],
+            contact: {
+                email: "estudiodalemecha@gmail.com",
+                phone: "+54 9 2657 394282"
+            }
+        }
+    };
+
+    // Current language state
+    let currentLang = 'en';
+    </script>
+    <!-- END BILINGUAL DATABASE -->
+
+    <style>
+        :root {
+            --bg-primary: #fafafa;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f5f5f5;
+            --text-primary: #1a1a1a;
+            --text-secondary: #666666;
+            --text-tertiary: #999999;
+            --accent-red: #dc2626;
+            --accent-red-light: #ef4444;
+            --accent-red-dark: #b91c1c;
+            --border-light: #e5e5e5;
+            --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 12px 40px rgba(0,0,0,0.12);
+            --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-medium: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-slow: 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+        }
+
+        /* Language Switcher */
+        .lang-switcher {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+        }
+
+        .lang-btn {
+            padding: 0.375rem 0.75rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-secondary);
+            background: transparent;
+            border: 1px solid var(--border-light);
+            border-radius: 6px;
+            cursor: pointer;
+            transition: var(--transition-fast);
+        }
+
+        .lang-btn:hover {
+            border-color: var(--accent-red);
+            color: var(--accent-red);
+        }
+
+        .lang-btn.active {
+            background: var(--accent-red);
+            color: white;
+            border-color: var(--accent-red);
+        }
+
+        /* Scroll Progress Indicator */
+        .scroll-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 2px;
+            background: linear-gradient(90deg, var(--accent-red), var(--accent-red-light));
+            z-index: 1000;
+            transition: width 0.1s linear;
+            box-shadow: 0 0 10px rgba(220, 38, 38, 0.3);
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 999;
+            background: rgba(250, 250, 250, 0.8);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid transparent;
+            transition: var(--transition-medium);
+        }
+
+        nav.scrolled {
+            border-bottom-color: var(--border-light);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-left {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .nav-logo {
+            font-weight: 600;
+            font-size: 0.875rem;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+            text-decoration: none;
+            transition: var(--transition-fast);
+        }
+
+        .nav-logo:hover {
+            color: var(--accent-red);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            font-size: 0.75rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: var(--transition-fast);
+            position: relative;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 1px;
+            background: var(--accent-red);
+            transition: var(--transition-fast);
+        }
+
+        .nav-links a:hover {
+            color: var(--text-primary);
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 6rem 2rem 4rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-bg {
+            position: absolute;
+            inset: 0;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(220, 38, 38, 0.03) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(220, 38, 38, 0.02) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .hero-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        @media (max-width: 768px) {
+            .hero-container {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+                text-align: center;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+            
+            .nav-left {
+                gap: 1rem;
+            }
+        }
+
+        .hero-content {
+            order: 2;
+        }
+
+        @media (max-width: 768px) {
+            .hero-content {
+                order: 2;
+            }
+        }
+
+        .hero-visual {
+            order: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        @media (max-width: 768px) {
+            .hero-visual {
+                order: 1;
+            }
+        }
+
+        .photo-container {
+            position: relative;
+            width: 320px;
+            height: 400px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+            transform: rotate(-2deg);
+            transition: var(--transition-medium);
+            animation: photoReveal 1s ease-out 0.3s both;
+        }
+
+        @media (max-width: 768px) {
+            .photo-container {
+                width: 260px;
+                height: 325px;
+            }
+        }
+
+        @keyframes photoReveal {
+            from {
+                opacity: 0;
+                transform: rotate(-5deg) translateY(30px) scale(0.95);
+            }
+            to {
+                opacity: 1;
+                transform: rotate(-2deg) translateY(0) scale(1);
+            }
+        }
+
+        .photo-container:hover {
+            transform: rotate(0deg) scale(1.02);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+        }
+
+        .photo-container::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to bottom, transparent 70%, rgba(0,0,0,0.2) 100%);
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        .photo-container::after {
+            content: '';
+            position: absolute;
+            inset: -4px;
+            border: 2px solid var(--accent-red);
+            border-radius: 16px;
+            z-index: -1;
+            opacity: 0.3;
+            transform: rotate(3deg);
+            transition: var(--transition-medium);
+        }
+
+        .photo-container:hover::after {
+            transform: rotate(5deg) scale(1.05);
+            opacity: 0.5;
+        }
+
+        .profile-photo {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: contrast(1.05) saturate(0.95);
+            transition: var(--transition-slow);
+        }
+
+        .photo-container:hover .profile-photo {
+            transform: scale(1.05);
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-light);
+            border-radius: 100px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.6875rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        .hero-badge::before {
+            content: '';
+            width: 6px;
+            height: 6px;
+            background: var(--accent-red);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.2); }
+        }
+
+        .hero-title {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -0.03em;
+            margin-bottom: 1.5rem;
+            animation: fadeInUp 0.8s ease-out 0.1s both;
+        }
+
+        .hero-title span {
+            color: var(--accent-red);
+            position: relative;
+        }
+
+        .hero-title span::after {
+            content: '';
+            position: absolute;
+            bottom: 0.1em;
+            left: 0;
+            width: 100%;
+            height: 0.1em;
+            background: rgba(220, 38, 38, 0.2);
+            z-index: -1;
+            transform: scaleX(0);
+            transform-origin: left;
+            animation: underlineExpand 1s ease-out 0.8s forwards;
+        }
+
+        @keyframes underlineExpand {
+            to { transform: scaleX(1); }
+        }
+
+        .hero-subtitle {
+            font-size: clamp(1.125rem, 2vw, 1.5rem);
+            font-weight: 400;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            animation: fadeInUp 0.8s ease-out 0.2s both;
+        }
+
+        .hero-description {
+            max-width: 500px;
+            font-size: 1rem;
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin-bottom: 2.5rem;
+            animation: fadeInUp 0.8s ease-out 0.3s both;
+        }
+
+        @media (max-width: 768px) {
+            .hero-description {
+                max-width: 100%;
+            }
+        }
+
+        .hero-cta {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            animation: fadeInUp 0.8s ease-out 0.4s both;
+        }
+
+        @media (max-width: 768px) {
+            .hero-cta {
+                justify-content: center;
+            }
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.875rem 1.5rem;
+            font-size: 0.875rem;
+            font-weight: 500;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: var(--transition-fast);
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-primary {
+            background: var(--accent-red);
+            color: white;
+            box-shadow: 0 4px 14px rgba(220, 38, 38, 0.3);
+        }
+
+        .btn-primary:hover {
+            background: var(--accent-red-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(220, 38, 38, 0.4);
+        }
+
+        .btn-secondary {
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+            border: 1px solid var(--border-light);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--accent-red);
+            color: var(--accent-red);
+            transform: translateY(-2px);
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Section Styles */
+        section {
+            padding: 6rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            margin-bottom: 4rem;
+            position: relative;
+        }
+
+        .section-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.6875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--accent-red);
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .section-label::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border-light);
+            max-width: 100px;
+        }
+
+        .section-title {
+            font-size: clamp(1.75rem, 4vw, 2.5rem);
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+        }
+
+        /* Experience Timeline */
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 1px;
+            background: linear-gradient(to bottom, var(--border-light), var(--accent-red), var(--border-light));
+        }
+
+        .experience-card {
+            position: relative;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-light);
+            border-radius: 12px;
+            transition: var(--transition-medium);
+            opacity: 0;
+            transform: translateX(-20px);
+            animation: slideIn 0.6s ease-out forwards;
+        }
+
+        @keyframes slideIn {
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .experience-card::before {
+            content: '';
+            position: absolute;
+            left: -2rem;
+            top: 2.5rem;
+            width: 9px;
+            height: 9px;
+            background: var(--bg-secondary);
+            border: 2px solid var(--accent-red);
+            border-radius: 50%;
+            transform: translateX(-50%);
+            transition: var(--transition-fast);
+        }
+
+        .experience-card:hover::before {
+            background: var(--accent-red);
+            transform: translateX(-50%) scale(1.3);
+        }
+
+        .experience-card:hover {
+            border-color: rgba(220, 38, 38, 0.3);
+            box-shadow: var(--shadow-md);
+            transform: translateX(4px);
+        }
+
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .experience-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            letter-spacing: -0.01em;
+        }
+
+        .experience-period {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--accent-red);
+            background: rgba(220, 38, 38, 0.08);
+            padding: 0.25rem 0.75rem;
+            border-radius: 100px;
+            font-weight: 500;
+        }
+
+        .experience-company {
+            font-size: 0.9375rem;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+
+        .experience-description {
+            font-size: 0.9375rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+        }
+
+        .highlights {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .highlights li {
+            position: relative;
+            padding-left: 1.25rem;
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .highlights li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--accent-red);
+            font-weight: 600;
+        }
+
+        .highlights strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        /* Expertise Grid */
+        .expertise-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .expertise-category {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-light);
+            border-radius: 12px;
+            padding: 1.5rem;
+            transition: var(--transition-medium);
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 0.6s ease-out forwards;
+        }
+
+        .expertise-category:hover {
+            border-color: rgba(220, 38, 38, 0.2);
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .expertise-title {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .expertise-title::before {
+            content: '';
+            width: 3px;
+            height: 16px;
+            background: var(--accent-red);
+            border-radius: 2px;
+        }
+
+        .expertise-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .expertise-list li {
+            font-size: 0.8125rem;
+            color: var(--text-secondary);
+            padding: 0.375rem 0;
+            border-bottom: 1px solid var(--border-light);
+            transition: var(--transition-fast);
+            cursor: default;
+        }
+
+        .expertise-list li:last-child {
+            border-bottom: none;
+        }
+
+        .expertise-list li:hover {
+            color: var(--accent-red);
+            padding-left: 0.5rem;
+        }
+
+        /* Education & Courses */
+        .education-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+        }
+
+        @media (max-width: 768px) {
+            .education-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .timeline {
+                padding-left: 1.5rem;
+            }
+            
+            .experience-card::before {
+                left: -1.5rem;
+            }
+            
+            section {
+                padding: 4rem 1.5rem;
+            }
+
+            .certifications-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .education-block h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .education-block h3::before {
+            content: '';
+            width: 8px;
+            height: 8px;
+            background: var(--accent-red);
+            border-radius: 50%;
+        }
+
+        .education-item {
+            padding: 1.25rem 0;
+            border-bottom: 1px solid var(--border-light);
+            transition: var(--transition-fast);
+            opacity: 0;
+            transform: translateX(-10px);
+            animation: slideIn 0.5s ease-out forwards;
+        }
+
+        .education-item:hover {
+            padding-left: 1rem;
+            border-left: 2px solid var(--accent-red);
+            margin-left: -1rem;
+        }
+
+        .education-institution {
+            font-weight: 600;
+            color: var(--text-primary);
+            font-size: 0.9375rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .education-details {
+            font-size: 0.8125rem;
+            color: var(--text-secondary);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .education-year {
+            display: inline-block;
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            color: var(--accent-red);
+            background: rgba(220, 38, 38, 0.08);
+            padding: 0.125rem 0.5rem;
+            border-radius: 4px;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        /* Certifications Grid */
+        .certifications-section {
+            margin-top: 3rem;
+        }
+
+        .certifications-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 1rem;
+        }
+
+        .certification-item {
+            padding: 1.25rem;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-light);
+            border-radius: 8px;
+            transition: var(--transition-fast);
+            opacity: 0;
+            transform: translateY(10px);
+            animation: fadeInUp 0.5s ease-out forwards;
+        }
+
+        .certification-item:hover {
+            border-color: rgba(220, 38, 38, 0.3);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .certification-provider {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--accent-red);
+            margin-bottom: 0.5rem;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .certification-course {
+            font-size: 0.9375rem;
+            font-weight: 500;
+            color: var(--text-primary);
+            margin-bottom: 0.25rem;
+            line-height: 1.4;
+        }
+
+        .certification-meta {
+            font-size: 0.75rem;
+            color: var(--text-tertiary);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .certification-id {
+            display: inline-block;
+            margin-top: 0.5rem;
+            font-size: 0.6875rem;
+            color: var(--text-tertiary);
+            background: var(--bg-tertiary);
+            padding: 0.125rem 0.375rem;
+            border-radius: 4px;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        /* Languages */
+        .languages-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .language-tag {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 1rem 1.5rem;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-light);
+            border-radius: 100px;
+            transition: var(--transition-fast);
+            opacity: 0;
+            transform: scale(0.9);
+            animation: popIn 0.4s ease-out forwards;
+        }
+
+        @keyframes popIn {
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .language-tag:hover {
+            border-color: var(--accent-red);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .language-name {
+            font-weight: 600;
+            font-size: 0.9375rem;
+            color: var(--text-primary);
+        }
+
+        .language-level {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.6875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--accent-red);
+            background: rgba(220, 38, 38, 0.08);
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+        }
+
+        /* Contact Section */
+        .contact-section {
+            background: var(--bg-secondary);
+            border-top: 1px solid var(--border-light);
+            margin-top: 4rem;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 768px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .contact-item {
+            padding: 1.5rem;
+            border: 1px solid var(--border-light);
+            border-radius: 12px;
+            transition: var(--transition-medium);
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .contact-item:hover {
+            border-color: var(--accent-red);
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .contact-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.6875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-tertiary);
+        }
+
+        .contact-value {
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--text-primary);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 3rem 2rem;
+            border-top: 1px solid var(--border-light);
+        }
+
+        .footer-text {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--text-tertiary);
+        }
+
+        /* Print Styles */
+        @media print {
+            nav, .scroll-progress, .hero-cta, .lang-switcher {
+                display: none;
+            }
+            
+            .hero {
+                min-height: auto;
+                padding: 2rem;
+            }
+
+            .photo-container {
+                width: 200px;
+                height: 250px;
+                box-shadow: none;
+                border: 1px solid var(--border-light);
+            }
+            
+            .experience-card, .expertise-category, .certification-item {
+                break-inside: avoid;
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="scroll-progress" id="scrollProgress"></div>
+    
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-left">
+                <a href="#" class="nav-logo">JPG</a>
+                <ul class="nav-links" id="nav-links">
+                    <!-- Links generated by JavaScript -->
+                </ul>
+            </div>
+            <div class="lang-switcher">
+                <button class="lang-btn active" id="btn-en" onclick="switchLanguage('en')">EN</button>
+                <button class="lang-btn" id="btn-es" onclick="switchLanguage('es')">ES</button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-container" id="hero-container">
+            <!-- Content generated by JavaScript -->
+        </div>
+    </header>
+
+    <section id="experience">
+        <div class="section-header observe">
+            <div class="section-label" id="experience-label">Career Path</div>
+            <h2 class="section-title" id="experience-title">Professional Experience</h2>
+        </div>
+        <div class="timeline" id="experience-container">
+            <!-- Content generated by JavaScript -->
+        </div>
+    </section>
+
+    <section id="expertise" style="background: var(--bg-secondary); margin: 0; max-width: 100%; padding: 6rem 2rem;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <div class="section-header observe">
+                <div class="section-label" id="expertise-label">Capabilities</div>
+                <h2 class="section-title" id="expertise-title">Areas of Expertise</h2>
+            </div>
+            <div class="expertise-grid" id="expertise-container">
+                <!-- Content generated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="section-header observe">
+            <div class="section-label" id="education-label">Background</div>
+            <h2 class="section-title" id="education-title">Education & Training</h2>
+        </div>
+        
+        <div class="education-grid" id="education-academic-container">
+            <!-- Academic education generated by JavaScript -->
+        </div>
+        
+        <div class="certifications-section">
+            <h3 style="font-size: 1rem; font-weight: 600; color: var(--text-primary); margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.5rem;" class="observe">
+                <span style="width: 8px; height: 8px; background: var(--accent-red); border-radius: 50%; display: inline-block;"></span>
+                <span id="certifications-title">Professional Certifications & Courses</span>
+            </h3>
+            <div class="certifications-grid" id="certifications-container">
+                <!-- Content generated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="languages">
+        <div class="section-header observe">
+            <div class="section-label" id="languages-label">Communication</div>
+            <h2 class="section-title" id="languages-title">Languages</h2>
+        </div>
+        <div class="languages-container" id="languages-container">
+            <!-- Content generated by JavaScript -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="section-header observe">
+            <div class="section-label" id="contact-label">Connection</div>
+            <h2 class="section-title" id="contact-title">Get in Touch</h2>
+        </div>
+        <div class="contact-grid" id="contact-container">
+            <!-- Content generated by JavaScript -->
+        </div>
+    </section>
+
+    <footer>
+        <p class="footer-text" id="footer-text">© 2024 Juan Pablo Giusepponi — Designed & Coded with precision</p>
+    </footer>
+
+    <!-- RENDERING SCRIPT -->
+    <script>
+        // Get current language data
+        function getData() {
+            return CV_DATA[currentLang];
+        }
+
+        // Switch language
+        function switchLanguage(lang) {
+            currentLang = lang;
+            
+            // Update buttons
+            document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+            document.getElementById('btn-es').classList.toggle('active', lang === 'es');
+            
+            // Update HTML lang attribute
+            document.documentElement.lang = lang === 'es' ? 'es-AR' : 'en';
+            
+            // Re-render all sections
+            renderAll();
+            
+            // Update static section headers
+            updateSectionHeaders();
+        }
+
+        // Update section headers that are in HTML
+        function updateSectionHeaders() {
+            const d = getData();
+            const s = d.sections;
+            
+            document.getElementById('experience-label').textContent = s.experienceLabel;
+            document.getElementById('experience-title').textContent = s.experienceTitle;
+            document.getElementById('expertise-label').textContent = s.expertiseLabel;
+            document.getElementById('expertise-title').textContent = s.expertiseTitle;
+            document.getElementById('education-label').textContent = s.educationLabel;
+            document.getElementById('education-title').textContent = s.educationTitle;
+            document.getElementById('certifications-title').textContent = s.certificationsTitle;
+            document.getElementById('languages-label').textContent = s.languagesLabel;
+            document.getElementById('languages-title').textContent = s.languagesTitle;
+            document.getElementById('contact-label').textContent = s.contactLabel;
+            document.getElementById('contact-title').textContent = s.contactTitle;
+            document.getElementById('footer-text').textContent = s.footer;
+        }
+
+        // Render Navigation Links
+        function renderNav() {
+            const d = getData();
+            document.getElementById('nav-links').innerHTML = `
+                <li><a href="#experience">${d.nav.experience}</a></li>
+                <li><a href="#expertise">${d.nav.expertise}</a></li>
+                <li><a href="#education">${d.nav.education}</a></li>
+                <li><a href="#contact">${d.nav.contact}</a></li>
+            `;
+        }
+
+        // Render Hero
+        function renderHero() {
+            const h = getData().hero;
+            document.getElementById('hero-container').innerHTML = `
+                <div class="hero-visual">
+                    <div class="photo-container">
+                        <img src="${h.photo}" alt="${h.firstName} ${h.lastName}" class="profile-photo">
+                    </div>
+                </div>
+                <div class="hero-content">
+                    ${h.available ? `<div class="hero-badge">${h.availableText}</div>` : ''}
+                    <h1 class="hero-title">
+                        ${h.firstName}<br>
+                        <span>${h.lastName}</span>
+                    </h1>
+                    <p class="hero-subtitle">${h.title}</p>
+                    <p class="hero-description">${h.description}</p>
+                    <div class="hero-cta">
+                        <a href="#experience" class="btn btn-primary">${h.ctaPrimary}</a>
+                        <a href="#contact" class="btn btn-secondary">${h.ctaSecondary}</a>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Render Experience
+        function renderExperience() {
+            const container = document.getElementById('experience-container');
+            const exps = getData().experience;
+            container.innerHTML = exps.map((exp, index) => `
+                <article class="experience-card" style="animation-delay: ${(index + 1) * 0.1}s;">
+                    <div class="experience-header">
+                        <h3 class="experience-title">${exp.role}</h3>
+                        <span class="experience-period">${exp.period}</span>
+                    </div>
+                    <div class="experience-company">${exp.company}</div>
+                    <p class="experience-description">${exp.description}</p>
+                    ${exp.highlights.length > 0 ? `
+                        <ul class="highlights">
+                            ${exp.highlights.map(h => `<li>${h.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')}</li>`).join('')}
+                        </ul>
+                    ` : ''}
+                </article>
+            `).join('');
+        }
+
+        // Render Expertise
+        function renderExpertise() {
+            const container = document.getElementById('expertise-container');
+            const cats = getData().expertise;
+            container.innerHTML = cats.map((cat, index) => `
+                <div class="expertise-category" style="animation-delay: ${(index + 1) * 0.05}s;">
+                    <h3 class="expertise-title">${cat.category}</h3>
+                    <ul class="expertise-list">
+                        ${cat.skills.map(skill => `<li>${skill}</li>`).join('')}
+                    </ul>
+                </div>
+            `).join('');
+        }
+
+        // Render Education
+        function renderEducation() {
+            const container = document.getElementById('education-academic-container');
+            const d = getData();
+            const edu = d.education;
+            const s = d.sections;
+            
+            let html = `
+                <div class="education-block observe">
+                    <h3>${s.academicTitle}</h3>
+                    ${edu.academic.map((item, index) => `
+                        <div class="education-item" style="animation-delay: ${(index + 1) * 0.05}s;">
+                            <div class="education-institution">${item.institution}</div>
+                            <div class="education-details">${item.details}</div>
+                            <span class="education-year">${item.year}</span>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+            
+            html += `
+                <div class="education-block observe">
+                    <h3>${s.specializedTitle}</h3>
+                    ${edu.specialized.map((item, index) => `
+                        <div class="education-item" style="animation-delay: ${(index + 1) * 0.05}s;">
+                            <div class="education-institution">${item.institution}</div>
+                            <div class="education-details">${item.details}</div>
+                            <span class="education-year">${item.year}</span>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+            
+            container.innerHTML = html;
+        }
+
+        // Render Certifications
+        function renderCertifications() {
+            const container = document.getElementById('certifications-container');
+            const certs = getData().certifications;
+            container.innerHTML = certs.map((cert, index) => `
+                <div class="certification-item" style="animation-delay: ${(index + 1) * 0.05}s;">
+                    <div class="certification-provider">${cert.provider}</div>
+                    <div class="certification-course">${cert.course}</div>
+                    <div class="certification-meta">${cert.meta}</div>
+                    ${cert.id ? `<span class="certification-id">${cert.id}</span>` : ''}
+                </div>
+            `).join('');
+        }
+
+        // Render Languages
+        function renderLanguages() {
+            const container = document.getElementById('languages-container');
+            const langs = getData().languages;
+            container.innerHTML = langs.map((lang, index) => `
+                <div class="language-tag" style="animation-delay: ${(index + 1) * 0.05}s;">
+                    <span class="language-name">${lang.name}</span>
+                    <span class="language-level">${lang.level}</span>
+                </div>
+            `).join('');
+        }
+
+        // Render Contact
+        function renderContact() {
+            const d = getData();
+            const c = d.contact;
+            const s = d.sections;
+            document.getElementById('contact-container').innerHTML = `
+                <a href="mailto:${c.email}" class="contact-item observe">
+                    <span class="contact-label">${s.emailLabel}</span>
+                    <span class="contact-value">${c.email}</span>
+                </a>
+                <a href="tel:${c.phone.replace(/\s/g, '')}" class="contact-item observe">
+                    <span class="contact-label">${s.phoneLabel}</span>
+                    <span class="contact-value">${c.phone}</span>
+                </a>
+            `;
+        }
+
+        // Render all sections
+        function renderAll() {
+            renderNav();
+            renderHero();
+            renderExperience();
+            renderExpertise();
+            renderEducation();
+            renderCertifications();
+            renderLanguages();
+            renderContact();
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            renderAll();
+            updateSectionHeaders();
+            initScrollEffects();
+        });
+
+        // Scroll Effects
+        function initScrollEffects() {
+            // Scroll Progress
+            window.addEventListener('scroll', () => {
+                const scrollProgress = document.getElementById('scrollProgress');
+                const scrollTop = window.scrollY;
+                const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+                const scrollPercent = (scrollTop / docHeight) * 100;
+                scrollProgress.style.width = scrollPercent + '%';
+                
+                const navbar = document.getElementById('navbar');
+                if (scrollTop > 50) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+            });
+
+            // Intersection Observer
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.observe').forEach(el => observer.observe(el));
+
+            // Smooth scroll
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // Parallax
+            window.addEventListener('scroll', () => {
+                const scrolled = window.pageYOffset;
+                const heroBg = document.querySelector('.hero-bg');
+                if (heroBg) {
+                    heroBg.style.transform = `translateY(${scrolled * 0.5}px)`;
+                }
+            });
+        }
+    </script>
+</body>
+</html>
